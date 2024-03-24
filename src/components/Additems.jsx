@@ -26,6 +26,7 @@ export default function Additems(props) {
                 <input onChange={handleuserage} placeholder="Enter the name....." type="text" name='name' id="name" className="form-control " />
                 <input onChange={handleuserage} placeholder='Enter the age....' type="number" name='age' id="age" className="form-control " />
                 <button className="btn btn-primary my-2 ">Add Item</button>
+                
             </form>
         </div>
     )
